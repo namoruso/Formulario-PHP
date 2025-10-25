@@ -41,8 +41,9 @@ if ($accion === 'registrar') {
     $nombre = isset($_POST['nombre']) ? trim($_POST['nombre']) : '';
     $correo = isset($_POST['correo']) ? trim($_POST['correo']) : '';
     $contrasena = isset($_POST['contrasena']) ? trim($_POST['contrasena']) : '';
+    $contrasena2 = isset($_POST['confirm-contrasena']) ? trim($_POST['confirm-contrasena']) : '';
 
-    if (empty($nombre) || empty($correo) || empty($contrasena)) {
+    if (empty($nombre) || empty($correo) || empty($contrasena) || empty($contrasena2)) {
         header('Location: index.php?registro&error=campos_vacios');
         exit;
     }
@@ -51,6 +52,11 @@ if ($accion === 'registrar') {
 
     if (buscarUsuarioPorCorreo($usuarios, $correo) !== null) {
         header('Location: index.php?registro&error=correo_existente');
+        exit;
+    }
+
+    if ($contrasena != $contrasena2) {
+        header('Location: index.php?registro&error=contrasenas_distintas');
         exit;
     }
 
