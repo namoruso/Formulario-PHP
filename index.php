@@ -20,6 +20,8 @@ if ($mostrar_error) {
         case 'usuario_no_existe':
             $mensaje_error = 'No existe una cuenta con este correo electrónico.';
             break;
+        case 'contrasenas_distintas':
+            $mensaje_error = 'Contraseñas distintas';
         default:
             $mensaje_error = 'Ha ocurrido un error. Intente nuevamente.';
     }
@@ -97,6 +99,19 @@ $mostrar_registro = isset($_GET['registro']);
                     type="password" 
                     id="contrasena" 
                     name="contrasena" 
+                    placeholder="Mínimo 6 caracteres"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-contrasena">
+                    Confirmar contraseña <span class="required">*</span>
+                </label>
+                <input 
+                    type="password" 
+                    id="confirm-contrasena" 
+                    name="confirm-contrasena" 
                     placeholder="Mínimo 6 caracteres"
                     required
                 >

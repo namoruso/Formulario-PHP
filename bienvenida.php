@@ -88,6 +88,14 @@ $nombre_usuario = $_SESSION['usuario_nombre'];
                     <h3>La Radiancia</h3>
                     <p>La fuente primordial de la infección aguarda en lo más profundo de los sueños.</p>
                 </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://fbi.cults3d.com/uploaders/29497180/illustration-file/287f5112-a42a-4b81-a2f6-e82e759f279f/3-days-gentlemen-thats-72-hours-v0-5sv62f7ealmf1.webp" alt="La Radiancia">
+                    </div>
+                    <h3>Cilantro</h3>
+                    <p>El cilantro es una hierba aromática de la familia de las apiáceas, conocida por sus hojas y semillas con sabor y aroma distintivos, que van del cítrico al picante. Se utiliza ampliamente en diversas cocinas, como la mexicana, la india y la latinoamericana, para realzar el sabor de carnes, caldos, salsas y ensaladas. .</p>
+                </div>
             </div>
 
             <div class="quote-section">
