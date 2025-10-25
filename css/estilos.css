@@ -123,3 +123,20 @@ button:active {
 .required {
     color: #e74c3c;
 }
+
+.toggle-form {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.toggle-form a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.toggle-form a:hover {
+    text-decoration: underline;
+}
