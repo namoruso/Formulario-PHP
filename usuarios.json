@@ -1,0 +1,16 @@
+[
+    {
+        "id": "user_68fc136aa87195.85747099",
+        "nombre": "Jonathan Tellez",
+        "correo": "jonathan@gmail.com",
+        "contrasena": "$2y$10$xJYGY82uGaph.BZvRc51pOU75vNB8kAQDyMDclvJUnhEer2UfTMeK",
+        "fecha_registro": "2025-10-25 02:01:46"
+    },
+    {
+        "id": "user_68fc152d8f6880.70282563",
+        "nombre": "Nicola Amoruso",
+        "correo": "namoruso23@gmail.com",
+        "contrasena": "$2y$10$Fn1KrBb630pvNUwOpNhXLe5RIxiBmFEqIgbMaJsGYdWvPzKO6mYUe",
+        "fecha_registro": "2025-10-25 02:09:17"
+    }
+]
